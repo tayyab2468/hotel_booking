@@ -26,8 +26,7 @@ export default function About() {
           <div className="md:w-1/2 text-left md:pr-12">
             <h2 className="text-3xl md:text-4xl font-bold text-black ml-9">Why Choose Us?</h2>
             <p className="mt-4 text-gray-600 text-lg ml-4 md:text-xl leading-relaxed">
-              We make hotel booking effortless, offering the best deals on luxury and budget stays worldwide. 
-              Whether you’re planning a business trip or a vacation, we ensure you find the perfect accommodation.
+             We make hotel booking effortless, offering the best deals on luxury and budget stays worldwide. Whether you&apos;re planning a business trip or a vacation, we ensure you find the perfect accommodation.
             </p>
           </div>
 
