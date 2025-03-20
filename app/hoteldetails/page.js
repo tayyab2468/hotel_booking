@@ -303,13 +303,4 @@ const HotelDetails = () => {
   </div>
 );
 };
-const HotelDetails = () => {
-  return (
-    <Suspense fallback={<div className="text-center text-2xl text-blue-500">Loading...</div>}>
-      <HotelDetailsContent />
-    </Suspense>
-  );
-};
-
-
 export default HotelDetails;
