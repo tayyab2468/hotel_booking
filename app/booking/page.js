@@ -25,12 +25,11 @@ const BookingPage = () => {
   };
 
   // Calculate total price dynamically
-  useEffect(() => {
-    if (formData.roomType) {
-      setTotalPrice((roomPrices[formData.roomType] || 0) * formData.nights);
-    }
-  }, [formData.roomType, formData.nights]);
-
+ useEffect(() => {
+  if (formData.roomType) {
+    setTotalPrice((roomPrices[formData.roomType] || 0) * formData.nights);
+  }
+}, [formData.roomType, formData.nights, roomPrices]);
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData({
