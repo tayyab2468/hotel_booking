@@ -5,7 +5,7 @@ import Link from "next/link";
 // Mock Hotel Data (Replace with API Call if Needed)
 const hotels = [
   {
-    id: 1,
+    id: 1,  
     name: "Pearl Continental Karachi",
     description: "A luxurious 5-star hotel in the heart of Karachi, offering premium amenities and fine dining.",
     img: "https://pix10.agoda.net/hotelImages/569439/-1/f91da57aad28a4a3ccdf3631fb287743.jpg?ca=16&ce=1&s=414x232&ar=16x9",
