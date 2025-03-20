@@ -64,7 +64,7 @@ export default function About() {
             <div className="bg-white p-6 rounded-lg shadow-md text-black">
               <h3 className="text-xl font-semibold">24/7 Customer Support</h3>
               <p className="text-gray-600 mt-2">
-                We're here to assist you anytime, anywhere.
+              We&apos;re here to assist you anytime, anywhere.
               </p>
             </div>
 
